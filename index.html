@@ -7,6 +7,62 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <h1>Puppy Bowl</h1>
+    </header>
+
+    <main>
+      <section id="roster-section">
+        <h2>Puppy Roster</h2>
+        <div id="puppy-roster"></div>
+      </section>
+
+      <section id="details-section">
+        <h2>Puppy Details</h2>
+        <div id="puppy-details">
+          <p>Select a puppy to see more information.</p>
+        </div>
+      </section>
+
+      <section id="form-section">
+        <h2>Invite a New Puppy</h2>
+        
+        <form id="new-puppy-form">
+          <label>
+            Name
+            <input type="text" name="name" required>
+          </label>
+
+          <label>
+            Breed
+            <input type="text" name="breed" required>
+          </label>
+
+          <label>
+            Status
+            <select name="status">
+              <option value="bench">Bench</option>
+              <option value="field">Field</option>
+            </select>
+          </label>
+
+          <label>
+            Team
+            <select name="teamId" id="team-select">
+              <option value="">Unassigned</option>
+            </select>
+          </label>
+
+          <label>
+            Image URL
+            <input type="text" name="imageUrl">
+          </label>
+
+          <button class="invite-button" type="submit">
+            Invite Puppy
+          </button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
