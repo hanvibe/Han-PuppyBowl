@@ -1,0 +1,30 @@
+Body 
+1. background color
+2. font
+3. remove default margin
+
+Header
+1. background
+2. text color
+3. padding 
+
+Main 
+1. display grid
+2. gap
+3. grid template columns
+
+sections
+1. background
+2. padding
+3. border radius
+4. light shadow
+
+Form
+1. display flex
+2. flex-direction column
+
+Buttons
+1. rounded corners 
+2. background color 
+3. border
+4. hover

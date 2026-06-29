@@ -1,0 +1,19 @@
+1.Roster Component
+    Shows all puppies.
+    Clicking one updates the selected puppy.
+
+2.Details Component
+    Shows "Select a puppy..." at first.
+    After clicking:
+    Name
+    ID
+    Breed
+    Status
+    Team
+    Image
+    Remove button
+
+3.Form Component
+    Add a puppy.
+    Submit.
+    Refresh roster.
