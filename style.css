@@ -61,3 +61,56 @@ button {
 button:hover {
     background-color: #7b4a2d;
 }
+
+.puppy-card {
+    display: flex;
+    align-items: center;
+    border: 1px soild #E7D6C7;
+    border-radius: 8px;
+    background-color: #fff1df;
+    cursor: pointer;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.puppy-card:hover {
+    background-color: #fff1df;
+}
+
+.puppy-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.puppy-card h3 {
+    margin: 0;
+    font-size: 14px;
+}
+
+#puppy-roster {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.details-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details-card img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.details-card p {
+  width: 100%;
+}
+
